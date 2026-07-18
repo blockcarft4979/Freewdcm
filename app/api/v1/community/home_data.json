@@ -1,0 +1,26 @@
+{
+    "status": "success",
+    "data": {
+        "notification": {
+            "title": "test",
+            "msg": "Hello Freewd Community"
+        },
+        "zone": [
+            {
+                "name": "Test",
+                "zone": 1,
+                "description": "Hello Freewd Community New Edition!"
+            },
+            {
+                "name": "Tap Me",
+                "description": "Hello:)",
+                "msg": "こんにちは"
+            },
+            {
+                "name": "Web",
+                "description": "Open a Link",
+                "link": "https://www.freewd.top"
+            }
+        ]
+    }
+}
