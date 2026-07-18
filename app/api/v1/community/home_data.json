@@ -7,16 +7,18 @@
         },
         "zone": [
             {
+"icon":"https://f2.freewd.top/img/icons/Test.png",
                 "name": "Test",
                 "zone": 1,
                 "description": "Hello Freewd Community New Edition!"
             },
-            {
+            {"icon":"https://f2.freewd.top/img/icons/Test.png",
+
                 "name": "Tap Me",
                 "description": "Hello:)",
                 "msg": "こんにちは"
             },
-            {
+            {"icon":"https://f2.freewd.top/img/icons/Test.png",
                 "name": "Web",
                 "description": "Open a Link",
                 "link": "https://www.freewd.top"
