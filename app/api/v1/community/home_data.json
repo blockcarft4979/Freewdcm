@@ -25,6 +25,16 @@
                 "link": "https://www.freewd.top"
             },
             {"icon":"https://f2.freewd.top/img/icons/Test.png",
+                "name": "Test Zone9",
+                "description": "Zone2",
+                "zone":2
+            },
+            {"icon":"https://f2.freewd.top/img/icons/Test.png",
+                "name": "Test Zone000",
+                "description": "Zone2",
+                "zone":2
+            },
+            {"icon":"https://f2.freewd.top/img/icons/Test.png",
                 "name": "Test Zone2",
                 "description": "Zone2",
                 "zone":2
