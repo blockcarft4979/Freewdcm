@@ -9,9 +9,9 @@
         "zone": [
             {
                 "icon":"https://f2.freewd.top/img/icons/Test.png",
-                "name": "Test",
+                "name": "Test Zone 1",
                 "zone": 1,
-                "description": "Hello Freewd Community New Edition!"
+                "description": "Hello Freewd Community New Edition!\n新的 Freewd 社区即将到来！"
             },
             {
                 "icon":"https://f2.freewd.top/img/icons/Test.png",
