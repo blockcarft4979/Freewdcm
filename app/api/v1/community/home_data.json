@@ -9,36 +9,21 @@
         "zone": [
             {
                 "icon":"https://f2.freewd.top/img/icons/Test.png",
-                "name": "Test Zone 1",
-                "zone": 1,
-                "description": "Hello Freewd Community New Edition!\n新的 Freewd 社区即将到来！"
+                "name": "Test Zone",
+                "zone": 4,
+                "description": "测试板块，数据将在正式发布后删除"
             },
             {
                 "icon":"https://f2.freewd.top/img/icons/Test.png",
-                "name": "Tap Me",
+                "name": "Toast Test",
                 "description": "Hello:)",
-                "msg": "こんにちは"
+                "msg": "こんにちは，你好"
             },
             {"icon":"https://f2.freewd.top/img/icons/Test.png",
                 "name": "Web",
                 "description": "Open a Link",
                 "link": "https://www.freewd.top"
-            },
-            {"icon":"https://f2.freewd.top/img/icons/Test.png",
-                "name": "Test Zone9",
-                "description": "Zone2",
-                "zone":2
-            },
-            {"icon":"https://f2.freewd.top/img/icons/Test.png",
-                "name": "Test Zone000",
-                "description": "Zone2",
-                "zone":2
-            },
-            {"icon":"https://f2.freewd.top/img/icons/Test.png",
-                "name": "Test Zone2",
-                "description": "Zone2",
-                "zone":2
             }
-        ]
+         ]
     }
 }
