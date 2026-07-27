@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Freewd 社区</title>
+  <title>Freewd 社区 · Compose 重构</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet" />
@@ -49,10 +49,12 @@
       margin-bottom: 20px;
     }
 
-    .hero-icon svg {
+    .hero-icon img {
       width: 72px;
       height: 72px;
       border-radius: 20px;
+      object-fit: cover;
+      display: block;
     }
 
     .hero-title {
@@ -309,10 +311,11 @@
       gap: 10px;
     }
 
-    .footer-logo svg {
+    .footer-logo img {
       width: 32px;
       height: 32px;
       border-radius: 10px;
+      object-fit: cover;
     }
 
     .footer-logo span {
@@ -389,7 +392,7 @@
         grid-template-columns: 1fr;
       }
 
-      .hero-icon svg {
+      .hero-icon img {
         width: 56px;
         height: 56px;
       }
@@ -413,22 +416,7 @@
       <div class="hero-content fade-in">
 
         <div class="hero-icon">
-          <svg viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="128" height="128" rx="24" fill="#1a1a24" />
-            <rect x="24" y="24" width="80" height="80" rx="16" fill="url(#g)" />
-            <defs>
-              <linearGradient id="g" x1="0" y1="0" x2="80" y2="80">
-                <stop offset="0%" stop-color="#6b8cff" />
-                <stop offset="100%" stop-color="#4a6cf7" />
-              </linearGradient>
-            </defs>
-            <path d="M48 44L80 44L80 64L48 64L48 44Z" fill="#0a0a0e" opacity="0.3" />
-            <path d="M48 68L80 68L80 84L48 84L48 68Z" fill="#0a0a0e" opacity="0.3" />
-            <path d="M36 44L44 44L44 84L36 84L36 44Z" fill="#0a0a0e" opacity="0.3" />
-            <path d="M84 44L92 44L92 84L84 84L84 44Z" fill="#0a0a0e" opacity="0.3" />
-            <circle cx="44" cy="38" r="4" fill="#6b8cff" />
-            <circle cx="84" cy="38" r="4" fill="#6b8cff" />
-          </svg>
+          <img src="/img/freewd_community_icon.png" alt="Freewd 社区 Icon" />
         </div>
 
         <h1 class="hero-title">
@@ -541,22 +529,7 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-logo">
-          <svg viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="128" height="128" rx="20" fill="#1a1a24" />
-            <rect x="24" y="24" width="80" height="80" rx="14" fill="url(#g2)" />
-            <defs>
-              <linearGradient id="g2" x1="0" y1="0" x2="80" y2="80">
-                <stop offset="0%" stop-color="#6b8cff" />
-                <stop offset="100%" stop-color="#4a6cf7" />
-              </linearGradient>
-            </defs>
-            <path d="M48 44L80 44L80 64L48 64L48 44Z" fill="#0a0a0e" opacity="0.3" />
-            <path d="M48 68L80 68L80 84L48 84L48 68Z" fill="#0a0a0e" opacity="0.3" />
-            <path d="M36 44L44 44L44 84L36 84L36 44Z" fill="#0a0a0e" opacity="0.3" />
-            <path d="M84 44L92 44L92 84L84 84L84 44Z" fill="#0a0a0e" opacity="0.3" />
-            <circle cx="44" cy="38" r="4" fill="#6b8cff" />
-            <circle cx="84" cy="38" r="4" fill="#6b8cff" />
-          </svg>
+          <img src="/img/freewd_community_icon.png" alt="Freewd 社区 Icon" />
           <span>Freewd 社区</span>
         </div>
         <span class="desc">Compose 重构版 · 开放交流</span>
