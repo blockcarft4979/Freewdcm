@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="description" content="Freewd社区 - 页面走丢了">
+    <title>404 · Freewd 社区</title>
+    <link rel="icon" type="image/png" href="/img/freewd_community_icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- 引入公共样式 -->
+    <link rel="stylesheet" href="/css/common.css">
+    <style>
+        /* ===== 404.html 独有样式 ===== */
+        .error-section {
+            padding: 40px 0 60px;
+            flex: 1;
+            display: flex;
+            align-items: center;
+        }
+
+        .error-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            max-width: 640px;
+            margin: 0 auto;
+        }
+
+        .error-code {
+            font-size: clamp(5rem, 18vw, 8rem);
+            font-weight: 800;
+            line-height: 1;
+            letter-spacing: -0.04em;
+            background: linear-gradient(135deg, #80caff, #0468C0);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 0.25rem;
+            text-shadow: 0 8px 32px rgba(4, 104, 192, 0.25);
+        }
+
+        .error-title {
+            font-size: clamp(1.6rem, 4vw, 2.4rem);
+            font-weight: 600;
+            color: var(--md-sys-color-on-surface);
+            margin-bottom: 0.75rem;
+        }
+
+        .error-message {
+            font-size: clamp(1rem, 2vw, 1.2rem);
+            color: var(--md-sys-color-on-surface-variant);
+            max-width: 480px;
+            margin: 0 auto 0.5rem;
+        }
+
+        .error-hint {
+            font-size: 0.95rem;
+            color: var(--md-sys-color-on-surface-variant);
+            opacity: 0.6;
+            margin-bottom: 2rem;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 0.5rem;
+        }
+
+        .deco-ring {
+            position: relative;
+            width: 160px;
+            height: 160px;
+            margin: 0 auto 2rem;
+        }
+
+        .deco-ring .ring {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.10;
+        }
+
+        .deco-ring .ring-1 {
+            width: 140px;
+            height: 140px;
+            top: 10px;
+            left: 10px;
+            background: radial-gradient(circle, #0468C0, transparent 70%);
+            animation: floatRing 6s ease-in-out infinite;
+        }
+
+        .deco-ring .ring-2 {
+            width: 100px;
+            height: 100px;
+            top: 30px;
+            right: 0;
+            background: radial-gradient(circle, #80caff, transparent 70%);
+            animation: floatRing 8s ease-in-out infinite reverse;
+        }
+
+        .deco-ring .ring-3 {
+            width: 70px;
+            height: 70px;
+            bottom: 10px;
+            left: 20px;
+            background: radial-gradient(circle, #084c8a, transparent 70%);
+            animation: floatRing 7s ease-in-out infinite 1s;
+        }
+
+        @keyframes floatRing {
+
+            0%,
+            100% {
+                transform: translateY(0) scale(1);
+            }
+
+            50% {
+                transform: translateY(-16px) scale(1.04);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .error-code {
+                font-size: 5rem;
+            }
+            .error-title {
+                font-size: 1.6rem;
+            }
+            .action-buttons {
+                flex-direction: column;
+                width: 100%;
+                max-width: 300px;
+            }
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+            .deco-ring {
+                width: 120px;
+                height: 120px;
+            }
+            .deco-ring .ring-1 {
+                width: 100px;
+                height: 100px;
+                top: 10px;
+                left: 10px;
+            }
+            .deco-ring .ring-2 {
+                width: 72px;
+                height: 72px;
+                top: 24px;
+                right: 4px;
+            }
+            .deco-ring .ring-3 {
+                width: 52px;
+                height: 52px;
+                bottom: 8px;
+                left: 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .error-code {
+                font-size: 3.8rem;
+            }
+            .error-title {
+                font-size: 1.3rem;
+            }
+            .error-message {
+                font-size: 0.95rem;
+            }
+            .deco-ring {
+                width: 96px;
+                height: 96px;
+                margin-bottom: 1.5rem;
+            }
+            .deco-ring .ring-1 {
+                width: 80px;
+                height: 80px;
+                top: 8px;
+                left: 8px;
+            }
+            .deco-ring .ring-2 {
+                width: 56px;
+                height: 56px;
+                top: 20px;
+                right: 4px;
+            }
+            .deco-ring .ring-3 {
+                width: 40px;
+                height: 40px;
+                bottom: 6px;
+                left: 12px;
+            }
+        }
+
+        @media (max-height: 500px) and (orientation: landscape) {
+            .error-section {
+                padding: 20px 0 30px;
+            }
+            .deco-ring {
+                width: 80px;
+                height: 80px;
+                margin-bottom: 1rem;
+            }
+            .deco-ring .ring-1 {
+                width: 64px;
+                height: 64px;
+                top: 8px;
+                left: 8px;
+            }
+            .deco-ring .ring-2 {
+                width: 44px;
+                height: 44px;
+                top: 18px;
+                right: 4px;
+            }
+            .deco-ring .ring-3 {
+                width: 32px;
+                height: 32px;
+                bottom: 4px;
+                left: 10px;
+            }
+            .error-code {
+                font-size: 3.2rem;
+            }
+            .error-title {
+                font-size: 1.2rem;
+            }
+            .action-buttons {
+                flex-direction: row;
+                gap: 0.75rem;
+            }
+            .btn {
+                width: auto;
+                padding: 6px 18px;
+                font-size: 0.85rem;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .deco-ring .ring {
+                animation: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <section class="error-section">
+        <div class="container">
+            <div class="error-container">
+
+                <div class="deco-ring fade-in">
+                    <div class="ring ring-1"></div>
+                    <div class="ring ring-2"></div>
+                    <div class="ring ring-3"></div>
+                </div>
+
+                <div class="error-code fade-in">404</div>
+                <h2 class="error-title fade-in">页面好像迷路了…</h2>
+                <p class="error-message fade-in">
+                    我们找不到您要访问的页面，可能是链接已失效或内容已被移动。
+                </p>
+                <p class="error-hint fade-in">
+                    您可以选择返回首页或回到上一页
+                </p>
+
+                <div class="action-buttons fade-in">
+                    <a href="/" class="btn btn-primary">
+                        <i class="fas fa-home"></i> 返回首页
+                    </a>
+                    <a href="javascript:history.back()" class="btn btn-secondary">
+                        <i class="fas fa-arrow-left"></i> 返回上一页
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="/img/freewd_community_icon.png" alt="Freewd社区" class="logo-img">
+                    <span class="logo-text">Freewd社区</span>
+                </div>
+                <p>为Minecraft玩家打造的专属交流平台，共创自由和谐的游戏社区</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 - 2026 Freewd | BLOCKCARFT.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const fadeElements = document.querySelectorAll('.fade-in');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.15 });
+            fadeElements.forEach(el => observer.observe(el));
+
+            document.querySelectorAll('.btn').forEach(btn => {
+                btn.addEventListener('touchstart', function() {
+                    this.style.transform = 'scale(0.97)';
+                }, { passive: true });
+                btn.addEventListener('touchend', function() {
+                    this.style.transform = '';
+                }, { passive: true });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
