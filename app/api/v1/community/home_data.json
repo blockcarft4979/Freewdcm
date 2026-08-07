@@ -1,24 +1,25 @@
 {
-    "status": "success",
-    "data": {
-        "notification": {
-            "id": 1,
-            "title": "test",
-            "msg": "Hello Freewd Community",
-            "image_url": "https://shp.qpic.cn/collector/2216368705/d877a980-2278-4042-ad41-8aafee0b02be/0"
-        },
-        "zone": [
-            {
-                "icon": "https://f2.freewd.top/img/icons/Daily.png",
-                "name": "发帖区",
-                "zone": 1,
-                "description": "分享日常，灌水吹牛！"
-            },
-            {
-                "icon": "https://f2.freewd.top/img/icons/Unknown.png",
-                "name": "周年庆",
-                "description": "点击查看 Freewd 社区一周年总结！",
-                "msg": "啊啊啊，还在施工中，请耐心等待"
-            }
-}
+  "status": "success",
+  "data": {
+    "notification": {
+      "id": 1,
+      "title": "test",
+      "msg": "Hello Freewd Community",
+      "image_url": "https://shp.qpic.cn/collector/2216368705/d877a980-2278-4042-ad41-8aafee0b02be/0"
+    },
+    "zone": [
+      {
+        "icon": "https://f2.freewd.top/img/icons/Daily.png",
+        "name": "发帖区",
+        "zone": 1,
+        "description": "分享日常，灌水吹牛！"
+      },
+      {
+        "icon": "https://f2.freewd.top/img/icons/Unknown.png",
+        "name": "周年庆",
+        "description": "点击查看 Freewd 社区一周年总结！",
+        "msg": "啊啊啊，还在施工中，请耐心等待"
+      }
+    ]
+  }
 }
