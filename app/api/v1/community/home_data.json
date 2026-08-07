@@ -19,13 +19,5 @@
                 "name": "周年庆",
                 "description": "点击查看 Freewd 社区一周年总结！",
                 "msg": "啊啊啊，还在施工中，请耐心等待"
-            },
-            {
-                "icon": "https://f2.freewd.top/img/icons/Test.png",
-                "name": "Web",
-                "description": "Check our official website",
-                "link": "https://community.freewd.top"
             }
-        ]
-    }
 }
