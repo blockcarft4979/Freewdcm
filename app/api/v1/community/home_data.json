@@ -15,16 +15,15 @@
         "description": "分享日常，灌水吹牛！"
       },
       {
-        "icon": "https://f2.freewd.top/img/icons/Unknown.png",
-        "name": "周年庆",
-        "description": "点击查看 Freewd 社区一周年总结！",
-        "msg": "啊啊啊，还在施工中，请耐心等待"
+        "icon": "https://community.freewd.top/img/icons/cake.svg",
+        "name": "周年庆板块",
+        "zone":5,
+        "description": "留下想对 Freewd 社区说的话吧！"
       },
       {
         "icon": "https://f2.freewd.top/img/icons/Unknown.png",
-        "name": "测试",
-        "description": "测试板块",
-        "zone":5,
+        "name": "施工中",
+        "description": "施工中",
         "msg": "啊啊啊，还在施工中，请耐心等待"
       }
     ]
