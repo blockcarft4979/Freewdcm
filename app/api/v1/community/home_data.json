@@ -13,19 +13,6 @@
         "name": "发帖区",
         "zone": 1,
         "description": "分享日常，灌水吹牛！"
-      },
-      {
-        "icon": "https://community.freewd.top/img/icons/cake.png",
-        "name": "周年庆板块",
-        "zone":5,
-        "description": "留下想对 Freewd 社区说的话吧！"
-      },
-      {
-        "icon": "https://f2.freewd.top/img/icons/Unknown.png",
-        "name": "周年总结",
-        "description": "点击查看 Freewd 社区周年总结~",
-        "link":"https://app.freewd.top//app/api/v1/one_year/stats_page.html",
-        "msg": "啊啊啊，部分接口还在施工中！"
       }
     ]
   }
