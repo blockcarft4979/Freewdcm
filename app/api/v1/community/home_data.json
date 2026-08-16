@@ -2,9 +2,9 @@
   "status": "success",
   "data": {
     "notification": {
-      "id": 1,
-      "title": "test",
-      "msg": "Hello Freewd Community",
+      "id": 2,
+      "title": "Test",
+      "msg": "Hello Freewd Community\nThis is a test information:)",
       "image_url": "https://shp.qpic.cn/collector/2216368705/d9387a72-e240-4fbc-bf70-e0f943e58eb8/0"
     },
     "zone": [
