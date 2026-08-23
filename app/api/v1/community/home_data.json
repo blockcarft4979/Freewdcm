@@ -2,9 +2,9 @@
   "status": "success",
   "data": {
     "notification": {
-      "id": 3,
+      "id": 4,
       "title": "温馨提示",
-      "msg": "社区后台出现部分问题，请等待我们的修复",
+      "msg": "我们正在维护社区，预计将在今晚21点左右恢复访问",
       "image_url": "https://shp.qpic.cn/collector/2216368705/d9387a72-e240-4fbc-bf70-e0f943e58eb8/0"
     },
     "zone": [
