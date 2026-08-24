@@ -13,7 +13,13 @@
         "name": "发帖区",
         "zone": 1,
         "description": "分享日常，灌水吹牛！"
+      },
+      {
+        "icon": "https://community.freewd.top/img/freewd_icon_monochrome.png",
+        "name": "Freewd 社区",
+        "description": "Freewd · 慢慢走，路还长"
       }
+
     ]
   }
 }
