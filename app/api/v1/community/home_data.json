@@ -2,9 +2,9 @@
   "status": "success",
   "data": {
     "notification": {
-      "id": 5,
-      "title": "温馨提示",
-      "msg": "Freewd 社区 v3.5.3.01 发布\n新版本更新了社区接口，旧版本已无法使用，请尽快更新\nhttps://github.com/blockcarft4979/Freewd/releases/tag/v3.5.3",
+      "id": 6,
+      "title": "有新版本更新",
+      "msg": "Freewd 社区 v3.5.3.03 发布\n新版本更新了社区接口，旧版本已无法使用，请尽快更新\n更多信息请查看以下链接\nhttps://github.com/blockcarft4979/Freewd/releases/tag/v3.5.3",
       "image_url": "https://shp.qpic.cn/collector/2216368705/d9387a72-e240-4fbc-bf70-e0f943e58eb8/0"
     },
     "zone": [
