@@ -9,13 +9,13 @@
     },
     "zone": [
       {
-        "icon": "https://photo.freewd.top/file/AgACAgUAAyEGAATgDnldAAIBimqUWLXfR1qVe_-I1JqDS9QXx4-_AALUE2sbFIapVCVcSuojBhp5AQADAgADbQADPQQ.png",
+        "icon": "https://community.freewd.top/img/icons/daily.png",
         "name": "发帖区",
         "zone": 1,
         "description": "分享日常，灌水吹牛！"
       },
       {
-        "icon": "https://photo.freewd.top/file/AgACAgUAAyEGAATgDnldAAIBjGqUWMb5hQpimzwTpbVq3yoKQYH9AALVE2sbFIapVCUeLL1zf4vbAQADAgADeAADPQQ.png",
+        "icon": "https://community.freewd.top/img/freewd_icon_monochrome.png",
         "name": "Freewd 社区",
         "description": "Freewd · 慢慢走，路还长",
         "msg":"Freewd · 慢慢走，路还长 >.<"
