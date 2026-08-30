@@ -3,19 +3,19 @@
   "data": {
     "notification": {
       "id": 7,
-      "title": "v3.5.3.04 更新",
-      "msg": "Freewd 社区 v3.5.3.04 发布\n更新内容：\n1，更新签到功能\n2，修复已知问题\n更多信息请查看以下链接\nhttps://github.com/blockcarft4979/Freewd/releases/tag/v3.5.3",
+      "title": "欢迎使用 Freewd 社区",
+      "msg": "Freewd 社区 • 因爱而生",
       "image_url": "https://shp.qpic.cn/collector/2216368705/d9387a72-e240-4fbc-bf70-e0f943e58eb8/0"
     },
     "zone": [
       {
-        "icon": "https://f2.freewd.top/img/icons/Daily.png",
+        "icon": "https://photo.freewd.top/file/AgACAgUAAyEGAATgDnldAAIBimqUWLXfR1qVe_-I1JqDS9QXx4-_AALUE2sbFIapVCVcSuojBhp5AQADAgADbQADPQQ.png",
         "name": "发帖区",
         "zone": 1,
         "description": "分享日常，灌水吹牛！"
       },
       {
-        "icon": "https://community.freewd.top/img/freewd_icon_monochrome.png",
+        "icon": "https://photo.freewd.top/file/AgACAgUAAyEGAATgDnldAAIBjGqUWMb5hQpimzwTpbVq3yoKQYH9AALVE2sbFIapVCUeLL1zf4vbAQADAgADeAADPQQ.png",
         "name": "Freewd 社区",
         "description": "Freewd · 慢慢走，路还长",
         "msg":"Freewd · 慢慢走，路还长 >.<"
