@@ -16,7 +16,8 @@
       },
        {
         "icon": "https://community.freewd.top/img/icons/Ghost.svg",
-        "name": "匿名曲",
+        "name": "匿名区",
+        "zone": 3,
         "description": "看看小幽灵们都发了什么",
         "msg":"请注意帖子和评论发表后将无法删除"
       },
