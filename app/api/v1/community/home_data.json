@@ -2,10 +2,10 @@
   "status": "success",
   "data": {
     "notification": {
-      "id": 8,
-      "title": "欢迎使用 Freewd 社区",
-      "msg": "Freewd 社区 • 因爱而生",
-      "image_url": "https://shp.qpic.cn/collector/2216368705/d9387a72-e240-4fbc-bf70-e0f943e58eb8/0"
+      "id": 9,
+      "title": "Freewd 社区 • 开学季！",
+      "msg": "开学季到了，准备好回到学校了吗？蓝兵王（笑）",
+      "image_url": "https://community.freewd.top/img/hello_school.png"
     },
     "zone": [
       {
@@ -23,7 +23,7 @@
       },
       {
         "icon": "https://community.freewd.top/img/freewd_icon_monochrome.png",
-        "name": "Freewd 社区",
+        "name": "Freewd 社区 • 开学季",
         "description": "Freewd · 慢慢走，路还长",
         "msg":"Freewd · 慢慢走，路还长 >.<"
       }
