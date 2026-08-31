@@ -14,6 +14,12 @@
         "zone": 1,
         "description": "分享日常，灌水吹牛！"
       },
+       {
+        "icon": "https://community.freewd.top/img/icons/Ghost.svg",
+        "name": "匿名曲",
+        "description": "看看小幽灵们都发了什么",
+        "msg":"请注意帖子和评论发表后将无法删除"
+      },
       {
         "icon": "https://community.freewd.top/img/freewd_icon_monochrome.png",
         "name": "Freewd 社区",
