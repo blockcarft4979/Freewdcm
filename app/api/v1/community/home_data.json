@@ -2,9 +2,9 @@
   "status": "success",
   "data": {
     "notification": {
-      "id": 12,
-      "title": "Freewd 社区 • 教师节！",
-      "msg": "以知识点亮未来，以青春守护成长\n感谢每一位老师，教师节快乐！",
+      "id": 13,
+      "title": "Freewd 社区更新接口通知",
+      "msg": "下个版本的Freewd社区将会采用新的接口，下一个版本发布时间将会等很久，进度请关注官方通知\n我们的QQ群:1104207891",
       "image_url": "https://shp.qpic.cn/collector/2216368705/d877a980-2278-4042-ad41-8aafee0b02be/0"
     },
     "zone": [
