@@ -2,24 +2,17 @@
   "status": "success",
   "data": {
     "notification": {
-      "id": 13,
+      "id": 14,
       "title": "Freewd 社区更新接口通知",
-      "msg": "下个版本的Freewd社区将会采用新的接口，下一个版本发布时间将会等很久，进度请关注官方通知\n我们的QQ群:1104207891",
+      "msg": "我们已经将板块功能合并，以后将不再区分板块，发布匿名帖子只需要等待下一个版本出来选择是否匿名即可（依旧需要消耗20积分，且您发布后将无法删除）",
       "image_url": "https://shp.qpic.cn/collector/2216368705/d877a980-2278-4042-ad41-8aafee0b02be/0"
     },
     "zone": [
       {
         "icon": "https://community.freewd.top/img/icons/daily.png",
-        "name": "发帖区",
+        "name": "综合区",
         "zone": 1,
-        "description": "分享日常，灌水吹牛！"
-      },
-       {
-        "icon": "https://community.freewd.top/img/icons/ghost.svg",
-        "name": "匿名区",
-        "zone": 3,
-        "description": "看看小幽灵们都发了什么",
-        "msg":"请注意帖子和评论发表后将无法删除"
+        "description": "发现新鲜事~"
       },
       {
         "icon": "https://community.freewd.top/img/freewd_icon_monochrome.png",
