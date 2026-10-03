@@ -2,9 +2,9 @@
   "status": "success",
   "data": {
     "notification": {
-      "id": 17,
+      "id": 18,
       "title": "Freewd 社区",
-      "msg": "当前主机出现未知故障，请耐心等待我们的修复，具体时间请看群消息",
+      "msg": "社区已恢复正常",
       "image_url": "https://shp.qpic.cn/collector/2216368705/d877a980-2278-4042-ad41-8aafee0b02be/0"
     },
     "zone": [
